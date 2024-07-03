@@ -42,7 +42,7 @@ while bonus_valido == False:
         else:
             bonus_valido = True
     except ValueError as e:
-        print("Entrada inválida, digite um valor numérico")
+        print("Entrada inválida, informe um valor numérico")
 
 # 4) Calcule o valor do bônus final
 valor_bonus_calculado: float = BONUS + salario_usuario * bonus_usuário
